@@ -6,10 +6,16 @@ import Nav from "react-bootstrap/Nav";
 
 function Header() {
   return (
-    <Navbar bg="success" className="d-flex justify-content-space-between">
-      <Container>
-        <Navbar.Brand href="/" style={{ marginLeft: "5%" }}>
-          Tyler Davis
+    <Navbar bg="success">
+      <Container className="me-0">
+        <Navbar.Brand href="/" style={{ marginLeft: "-5%" }}>
+        <h1 className="fs-1 mt-3 mb-1 text-black">
+          Tyler
+          <span className="text-white"> Davis</span>
+        </h1>
+        <div className="mb-4 ms-3 text-black">
+          Charlotte, NC 28216
+        </div>
         </Navbar.Brand>
         {/* <a className="navbar-brand js-scroll-trigger" href="#page-top">
           <span className="d-block d-lg-none">Tyler Davis</span>
@@ -32,12 +38,12 @@ function Header() {
           <span className="navbar-toggler-icon"></span>
         </button> */}
 
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="justify-content-end" width={18}>
-            <Nav.Link href="/about">About</Nav.Link>
-            <Nav.Link href="/portfolio">Projects</Nav.Link>
+        {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
+          <Nav className="justify-content-end fs-4" width={18}>
+            <Nav.Link className="me-2" href="/about">About</Nav.Link>
+            <Nav.Link className="me-5" href="/portfolio">Projects</Nav.Link>
             <Nav.Link
+            className="ms-5"
               href="https://drive.google.com/file/d/1PbNHkxQcckvl6Gboy-FxdFcFCCXEKAxU/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
@@ -52,7 +58,6 @@ function Header() {
           <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
         </NavDropdown> */}
           </Nav>
-        </Navbar.Collapse>
       </Container>
       {/* <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav">
