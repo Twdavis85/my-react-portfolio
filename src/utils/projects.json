@@ -5,7 +5,8 @@
         "description": "This website lets the user share their favorite recipes or store secret recipes for their eyes only",
         "link": "https://recipe-gram-best-team.herokuapp.com/",
         "repo": "https://github.com/Twdavis85/Recipe-Gram",
-        "tech": "AWS S3, Handlebars, Express, MySQL, Sequelize, Node, Bootstrapv"
+        "image": "../../images/nine.png",
+        "tech": "AWS S3, Handlebars, Express, MySQL, Sequelize, Node, Bootstrap"
     },
     {
         "id":2,
@@ -13,6 +14,7 @@
         "description": "This website helps the user find local breweries in their area with little to no effort. The users location is determined by their IP address.",
         "link": "https://twdavis85.github.io/Food-GeoLocation-Search-/",
         "repo": "https://github.com/Twdavis85/Food-GeoLocation-Search-",
+        "image": "../../images/screenshot.png",
         "tech": "HTML, JQuery, APIs, Local Storage"
     },
     {
@@ -21,6 +23,7 @@
         "description": "Timed quiz to test the users JavaScript knowledge. Wrong answers are penalized with a deduction of points and time. High Scores are saved for motivation and bragging rights.",
         "link": "https://twdavis85.github.io/JavaScript-Quiz/",
         "repo": "https://github.com/Twdavis85/JavaScript-Quiz",
+        "image": "../../images/quiz-screenshot.png",
         "tech": "HTML, CSS, JavaScript, Local Storage"
     },
     {
@@ -30,8 +33,8 @@
         "description": "This application uses terminal prompts to generate an HTML page with information cards for members of a team",
         "link": "https://twdavis85.github.io/Team-Profile-Generator/",
         "repo": "https://github.com/Twdavis85/Team-Profile-Generator",
+        "image": "../../images/teamscreenshot.png",
         "tech": "JavaScript, Node.js, Inquirer, Jest, TDD"
-
     },
     {
         "id":5,
@@ -39,6 +42,7 @@
         "description": "This application allows a company to manage their employee data. They can add, update, and remove employees. They can also add or remove departments and positions within the company.",
         "link": "https://drive.google.com/file/d/14-gfBzc0jLuSdzVqswrYKGz_UYblwFUO/view?usp=sharing",
         "repo": "https://github.com/Twdavis85/Employee-Tracker",
+        "image": "../../images/trackerss.png",
         "tech": "MySQL, Node.js, Inquirer, JavaScript"
     },
     {
@@ -47,6 +51,7 @@
         "description": "Planner to help the user organize their daily activities",
         "link": "https://twdavis85.github.io/Work-Day-Scheduler/",
         "repo": "https://github.com/Twdavis85/Work-Day-Scheduler",
+        "image": "../../images/Planner-ss.png",
         "tech": "HTML, CSS, JQuery, Local Storage"
     }  
     
