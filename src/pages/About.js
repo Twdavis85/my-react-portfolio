@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="bg-black">
+    <div className="bg-secondary">
       {/* <section class="resume-section" id="about"> */}
       <div>
         {/* <h1 className="mb-0 text-black">
@@ -19,7 +19,7 @@ function About() {
             alt="me wearing a bowtie and suspenders"
           />
         </span>
-        <h2 className="my-5 mx-5 text-white">
+        <h2 className="my-5 ps-5 mx-5 pe-5 text-white">
           I am a Full Stack Web Developer with a background in customer service
           and warehousing that can bring a unique perspective to web development
           and user interaction. I earned a certificate in Full Stack Web
@@ -29,8 +29,8 @@ function About() {
         </h2>
       </div>
       <div className="text-white">
-        <div className="mb-3 fs-2 d-flex justify-content-center text-success">Programming Languages & Tools</div>
-        <ul className="fs-1 d-flex justify-content-evenly">
+        <div className="mb-3 fs-2 ms-5 text-black">Programming Languages & Tools</div>
+        <ul className="fs-1">
           <li className="list-inline-item">
             <i className="fab fa-html5"></i>
           </li>
@@ -59,7 +59,7 @@ function About() {
             <i className="fab fa-bootstrap"></i>
           </li>
         </ul>
-        <div className="mb-3 fs-2 d-flex justify-content-center text-success">Workflow</div>
+        <div className="mb-3 fs-2 ms-5 text-black">Workflow</div>
         <ul className="fa-ul mb-0 fs-3">
           <li>
             <span className="fa-li">
