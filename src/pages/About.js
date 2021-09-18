@@ -3,18 +3,10 @@ import React from "react";
 function About() {
   return (
     <div className="bg-secondary">
-      {/* <section class="resume-section" id="about"> */}
       <div>
-        {/* <h1 className="mb-0 text-black">
-          Tyler
-          <span className="text-success">Davis</span>
-        </h1>
-        <div className="subheading mb-1 ms-3 text-black">
-          Charlotte, NC 28216
-        </div> */}
         <span className="d-none2 d-lg-block">
           <img
-            className="img-profile rounded-circle mx-auto mb-1 mt-3"
+            className="img-profile rounded-circle ms-5 mb-1 mt-2"
             src="../images/Pictureofme.jpg"
             alt="me wearing a bowtie and suspenders"
           />
@@ -29,38 +21,43 @@ function About() {
         </h2>
       </div>
       <div className="text-white">
-        <div className="mb-3 fs-2 ms-5 text-black">Programming Languages & Tools</div>
-        <ul className="fs-1">
-          <li className="list-inline-item">
+        <div className="mb-3 fs-2 ms-5 text-black">
+          Programming Languages & Tools
+        </div>
+        <ul
+          style={{ fontSize: "350%" }}
+          className="my-5 ps-5 mx-5 pe-5 text-white"
+        >
+          <li className="list-inline-item me-4">
             <i className="fab fa-html5"></i>
           </li>
-          <li className="list-inline-item">
+          <li className="list-inline-item me-4">
             <i className="fab fa-css3-alt"></i>
           </li>
-          <li className="list-inline-item">
+          <li className="list-inline-item me-4">
             <i className="fab fa-js"></i>
           </li>
-          <li className="list-inline-item">
+          <li className="list-inline-item me-4">
             <i className="fab fa-react"></i>
           </li>
-          <li className="list-inline-item">
+          <li className="list-inline-item me-4">
             <i className="fab fa-aws"></i>
           </li>
-          <li className="list-inline-item">
+          <li className="list-inline-item me-4">
             <i className="fab fa-node"></i>
           </li>
-          <li className="list-inline-item">
+          <li className="list-inline-item me-4">
             <i className="fab fa-github"></i>
           </li>
-          <li className="list-inline-item">
+          <li className="list-inline-item me-4">
             <i className="fab fa-npm"></i>
           </li>
-          <li className="list-inline-item">
+          <li className="list-inline-item me-4">
             <i className="fab fa-bootstrap"></i>
           </li>
         </ul>
         <div className="mb-3 fs-2 ms-5 text-black">Workflow</div>
-        <ul className="fa-ul mb-0 fs-3">
+        <ul className="fa-ul mb-0 fs-3 pb-5 my-5 ps-5 mx-5 pe-5 text-white">
           <li>
             <span className="fa-li">
               <i className="fas fa-check"></i>
@@ -87,7 +84,6 @@ function About() {
           </li>
         </ul>
       </div>
-      {/* </section> */}
     </div>
   );
 }
