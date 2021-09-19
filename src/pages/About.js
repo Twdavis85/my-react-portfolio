@@ -11,7 +11,7 @@ function About() {
             alt="me wearing a bowtie and suspenders"
           />
         </span>
-        <h2 className="my-5 ps-5 mx-5 pe-5 text-white">
+        <h2 className="my-5 px-4 mx-4 text-white">
           I am a Full Stack Web Developer with a background in customer service
           and warehousing that can bring a unique perspective to web development
           and user interaction. I earned a certificate in Full Stack Web
@@ -41,9 +41,6 @@ function About() {
             <i className="fab fa-react"></i>
           </li>
           <li className="list-inline-item me-4">
-            <i className="fab fa-aws"></i>
-          </li>
-          <li className="list-inline-item me-4">
             <i className="fab fa-node"></i>
           </li>
           <li className="list-inline-item me-4">
@@ -54,6 +51,9 @@ function About() {
           </li>
           <li className="list-inline-item me-4">
             <i className="fab fa-bootstrap"></i>
+          </li>
+          <li className="list-inline-item me-4">
+            <i className="fab fa-aws"></i>
           </li>
         </ul>
         <div className="mb-3 fs-2 ms-5 text-black">Workflow</div>
