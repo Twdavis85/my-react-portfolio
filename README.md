@@ -14,7 +14,7 @@ This is my updated Portfolio page using react router. This page now showcases my
 
 ## Review Links
 [Repository](https://github.com/Twdavis85/my-react-portfolio) &nbsp; | &nbsp; 
-[Live](https://twdavis85.github.io/portfolio-updated/)
+[Live](https://twdavis85.github.io/my-react-portfolio/)
 
 
 ## Questions
