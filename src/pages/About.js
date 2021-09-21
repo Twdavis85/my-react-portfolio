@@ -7,7 +7,7 @@ function About() {
         <span className="d-none2 d-lg-block">
           <img
             className="img-profile rounded-circle ms-5 mb-1 mt-2"
-            src="../images/Pictureofme.jpg"
+            src="https://bestteamproj2.s3.amazonaws.com/images/Pictureofme.jpg"
             alt="me wearing a bowtie and suspenders"
           />
         </span>
